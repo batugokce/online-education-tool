@@ -1,0 +1,15 @@
+.notification {
+    text-decoration: none;
+    position: absolute;
+    color:#fff;
+}
+
+.notification .badge {
+    position: absolute;
+    right: -11px;
+    top: -10px;
+    font-size: 0.8em;
+    border-radius: 50%;
+    background: firebrick;
+    color: #fff;
+}

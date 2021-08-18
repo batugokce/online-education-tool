@@ -1,0 +1,7 @@
+.block-example {
+    width: 32rem;
+    height: 6rem;
+    margin: 1.5rem;
+    background-color: #ffffff;
+    display: inline-block;
+}

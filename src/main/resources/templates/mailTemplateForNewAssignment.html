@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:remove="all">Template for HTML email</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+
+<p>
+    <b>Hello <span th:text="${name}"/> ,</b>
+    <br/>
+    New assignment with the title <span th:text="${title}"/> is uploaded on
+    <span th:text="${#dates.format(date)}"/>.
+<p>
+    Regards, <br />
+    <em>The OET Team</em>
+</p>
+</body>
+</html>

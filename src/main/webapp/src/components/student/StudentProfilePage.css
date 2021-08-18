@@ -1,0 +1,11 @@
+section.page           { width: 8.5in; height: 11in; position: absolute; }
+section.page > div     { border: #777 medium solid }
+#title                 { height: 2.5em; }
+#intro, #col1, #col2a, #col2b, #pull
+{ width: 60%; position: absolute; }
+#intro, #col2a         {  left:8% ;top: 5em; height: 60em; }
+#col1                  { top: 10em; height: 52em; }
+#col2a, #col2b, #pull  { left: 80%; }
+#col2a                 { top: 5em; height: 23em; }
+#col2b                 { top: 30em; height: 22em; }
+#pull                  { top: 30em; height: auto; }
